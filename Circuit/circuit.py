@@ -224,8 +224,7 @@ class Circuit():
         print(temp_circuit_elemnts_list)
         self.kim = temp_circuit_elemnts_list
             
-
-
 if __name__ == "__main__":
     
     pass
+
