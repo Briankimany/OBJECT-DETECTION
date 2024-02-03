@@ -231,8 +231,7 @@ def parse_xml(xml_path):
             <!-- Additional ImagePath tags for other images -->
         </Annotations>
     """
-
-    # Specify the path to your XML file
+  
     xml_file_path = xml_path
     
     if not os.path.isfile(xml_file_path):
