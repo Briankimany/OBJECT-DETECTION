@@ -97,9 +97,7 @@ class Circuit():
             else:
                 self.horizontal_juntion_dict[current_juntion.y1].append(current_juntion)
                 
-            
-   
-                    
+                   
     def split_circuit(self):
         """
         Divides the circuit into sub-circuits based on x-axis alignment.
@@ -228,12 +226,6 @@ class Circuit():
             
 
 
-
-
-# test_one_data = sorted(drawing_data['9'][0])
-
-
-
-# test = Circuit(objects_list=test_one_data , circuit_name='9')
-# test.get_juntions()
-# test.split_circuit()
+if __name__ == "__main__":
+    
+    pass

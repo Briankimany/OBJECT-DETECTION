@@ -113,3 +113,9 @@ class Element():
             print("Need parent Circuit in self.parent_circuit_connections")   
             
         return self.parent_circuit_connections     
+
+
+
+if __name__ == "__main__":
+    
+    pass
