@@ -49,3 +49,6 @@ Note
     The output dictionary will have the circuit element as the key and the coordinates of the two nearest junctions as the value.
     In CircuitJS, junctions are counted as 1=2, then on the next top 3 and 4 on the next bottom, and so on. The y-values are measured from the top of the screen.
     For a start, consider a circuit with one layer on the y-axis and an n-x division of the circuit. This means that the circuit only has two upper and lower y-junction values, and on the x-axis, the circuit has n subcircuits. These are loops in which you can perform KVL or KCL.
+
+
+algorithm files at briankimani328@gmail.com
