@@ -225,6 +225,7 @@ class Circuit():
             
         print(temp_circuit_elemnts_list)
         self.kim = temp_circuit_elemnts_list
+        return temp_circuit_elemnts_list
             
 
 
