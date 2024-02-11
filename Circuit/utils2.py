@@ -9,6 +9,8 @@ import matplotlib.pyplot as plt
 from utils import parse_xml , create_class_color_dict , draw_single_box
 from PIL import Image
 import random
+import tkinter as tk
+from tkinter import filedialog
 
 
 def clear_console():
@@ -291,7 +293,7 @@ def visualize_dict(data , count = {}, show_names= False):
     
     with open ("dict.json" , 'r') as file:
         names_dict = json.load(file)
-
+    print("listing in" , os.getcwd())
     data = list(zip(list(data.keys()) , list(data.values())))
 
     names =list(names_dict.values())
@@ -322,7 +324,21 @@ def visualize_dict(data , count = {}, show_names= False):
         
     return np.array(final_data)
 
+def read_path(directory):
+    try:
+        root = tk.Tk()
+        root.withdraw()
+        
+        root.configure(bg='purple')
+        root.geometry('800x600')
 
+        file_path = filedialog.askopenfilename(filetypes=[("All Files", "*.*")], initialdir=directory, title=directory)
+
+        root.destroy()
+        return file_path
+
+    except KeyboardInterrupt:
+        print("good bye")
 
 
     
