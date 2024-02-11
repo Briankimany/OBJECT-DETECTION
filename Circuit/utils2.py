@@ -2,7 +2,6 @@ import  xml.etree.ElementTree as ET
 from xml.dom import minidom
 import numpy as np
 import os , json
-from cyber.scripts.common_functions import read_path
 import glob
 import cv2
 import matplotlib.pyplot as plt
